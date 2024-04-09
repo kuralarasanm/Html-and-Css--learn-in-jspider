@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    
+}
+.navbar{
+    display: flex;
+    border: 2px solid white;
+    height: 95px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    /* position: fixed; */
+    /* top: 0px; */
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    
+}
+.navbar img{
+    cursor: pointer;
+}
+.navbar-left{
+    display: flex;
+    /* align-items: start; */
+    margin-left: 130px;
+    /* border: 1px solid green ; */
+    width: 400px;
+    
+}
+.navbar-left>a{
+    padding:0px 30px;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    
+    
+}
+.navbar-right1{
+    border-right: 1px solid gray;
+    /* align-items: center; */
+    display: flex;
+    padding-right: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+.navbar-right1>img{
+    height: 20px;
+    padding-right: 10px;
+    /* border: 2px solid firebrick; */
+    
+}
+.navbar-right2{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: bolder;
+}
+.navbar-right2>img{
+    height: 50px;
+}
+/* --------------------------------------------------------------------- */
+.navbar1>div{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.navbar1>div>button{
+    background-color: rgb(228,0,43);
+    color: white;
+    padding: 12px 40px;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+.navbar1{
+    background-color: black;
+    height: 70px;
+    margin-top: 100px;
+    /* border: 2px solid darkred; */
+    
+}
+/* ---------------------------------------------------------------- */
+.section1-left{
+    /* border: 2px solid green; */
+    height: 80vh;
+    width: 490px;
+    position: sticky;
+    top: 100px;
+    
+    
+}
+.section1-leftcontent{
+    /* border: 2px solid red; */
+    margin-left: 40%;
+    height: 500px;
+
+}
+.section1-leftcontent>h1{
+    font-size: 30px;
+    padding: 10px 0px;
+    
+}
+.section1-leftcontent>a{
+    display: block;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.652);
+    font-weight: lighter;
+    padding: 10px 0px;
+
+}
+/* ------------------------------------------------- */
+.section1{
+    display: flex;
+    
+}
+.menu-bottom-boder{
+    border-bottom: 2px solid black;
+    /* border: 2px solid indianred; */
+    width: 790px;
+
+}
+.search-menu{
+    border: 2px solid rgb(227,227,227);
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+    margin-top: 65px;
+    /* margin-left: 0px; */
+    margin-bottom: 20px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.search-menu>img{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+
+}
+.search-menu>input{
+    height: 30px;
+    width: 157px;
+    border-radius: 15px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+
+
+}
+
+.PERI-PERI-CHICKEN{
+    /* border: 2px solid darkorange; */
+    width: 810px;
+    margin-top: 60px;
+    background-color: rgb(248,247,245);
+    padding-left: 30px;
+}
+#img-p-li{
+    display: flex;
+ /* border: 2px solid fuchsia; */
+    padding: 10px 0px;
+}
+
+
+.top{
+    display: flex;
+    /* border: 2px solid seagreen; */
+}
+#btns1{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid greenyellow; */
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-around;
+}
+
+.top #btns1{
+    background-color: rgb(228,0,43);
+    color: whitesmoke;
+    border-radius: 20px;
+    height: 42px;
+    width: 180px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+    
+}
+.top1{
+    /* border: 2px solid firebrick; */
+}
+.top2{
+    /* border: 2px solid turquoise; */
+}
+.bottom{
+    display: flex;
+}
+.bottom #btns1{
+    background-color: rgb(228,0,43);
+    color: whitesmoke;
+    border-radius: 20px;
+    height: 42px;
+    width: 180px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+}
+.bottom1{
+    /* border: 2px solid lawngreen; */
+}
+.bottom2{
+    /* border: 2px solid violet; */
+}
+#heading{
+    font-weight: bold;
+    font-size: 25px;
+    
+    font-family: "National 2 Condensed";
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+/* ----------------------------------------------------------------------- */
+.section1-right>img{
+    position: sticky;
+    top: 110%;
+    right: 30%;
+    margin-left: 90px;
+    transition: 1S;
+}
+
+
+

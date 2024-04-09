@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+    justify-content: space-evenly;
+    height: 80px;
+    background-color:white;
+    
+}
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    /* background-color: white; */
+}
+.navbar>a{
+    text-decoration: none;
+    color: black;
+}
+.navbar>a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* ---------------------------------------------------------------- */
+.phonepe-background{
+    background-image: url('hp-banner-pg.jpg');
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+}
+.content{
+    color: rgb(68, 21, 133);
+    font-size: 30px;
+     
+}
+.phonepe-background>.content{
+    padding-left: 190px;
+    padding-top: 60px;
+}
+.content>p{
+    padding: 15px 0px;
+}
+.content>button{
+    color: white;
+    background-color: rgb(68, 21, 133);
+    border: none;
+    border-radius: 20px;
+    padding: 15px 40px;
+}
+.content>button:hover{
+    background-color: blueviolet;
+}
+/* -------------------------------------------------------- */
+.insurance{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 250px;
+    align-items: center;
+    margin-right: 20px;
+    padding-left: 30px;
+
+}
+.insurance:hover{
+    cursor: pointer;
+    /* transform: scale(1.2); */
+    transform: scale(1.02);
+    box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.71);
+    
+}
+.mutualfunds{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 250px;
+    align-items: center;
+    padding-left: 30px;
+}
+.mutualfunds:hover{
+    cursor: pointer;
+    /* transform: scale(1.2); */
+    transform: scale(1.02);
+    box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.71);
+    
+}
+.div3{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.content1>p{
+    padding-top: 10px;
+}
+.content2>p{
+    padding-top: 10px;
+}

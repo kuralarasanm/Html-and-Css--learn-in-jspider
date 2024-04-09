@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+ p::selection{
+  background-color: red;
+  color: white;
+}
+a::selection{
+  background-color: red;
+  color: white;
+}
+button::selection{
+  background-color: red;
+  color: white;
+}
+h1::selection{
+  background-color: red;
+  color: white;
+}
+.navbar1{
+  display: flex;
+  align-items: center;
+  /* border: 1px solid black; */
+  position: relative;
+  right: 150px;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.navbar>.btns>button{
+  border: none;
+  background-color: white;
+  position: relative;
+  left: 160px;
+  cursor: pointer;
+}
+.logo>img{
+  cursor: pointer;
+}
+
+.links>a{
+  text-decoration: none;
+  color: rgb(83, 83, 83);
+  margin-left: 10px;
+  font-size: medium;
+  font-weight: bolder;
+  /* border: 1px solid black; */
+}
+.links>a:hover{
+  cursor: pointer;
+  color: black;
+}
+/*---------------------------------------------------------------------------*/
+
+.intro-img{
+  background-image: linear-gradient( rgba(0,0,0,0.6),transparent), url(./images/background.jpg);
+  /* background-image: url(./images/background.jpg); */
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.intro{
+  /* border: 2px solid black; */
+  padding-top: 30px;
+  padding-left: 60px;
+  /* font-weight: bolder; */
+  
+}
+.intro>h1{
+  color: rgb(255,255,255);
+  padding-bottom: 10px;
+  font-size: 50px;
+  vertical-align: baseline;
+
+}
+.intro>p{
+  color: rgb(229,229,229);
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+
+}
+.intro-btns>button{
+  padding: 20px 50px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+.intro-btns>#btns1{
+  background-color: white;
+  margin-left: 60px;
+  border: none;
+
+}
+.intro-btns>#btns1:hover{
+  background-color: rgb(179,179,179);
+  cursor: pointer;
+}
+.intro-btns>#btns2{
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  /* background: rgba(255,255,255,0.2); */
+}
+.intro-btns>#btns2:hover{
+  color: rgb(156, 154, 154);
+  border-color:rgb(156, 154, 154);
+}
+
+/*----------------------------------------------------------------------*/
+.car-models{
+  /* border: 2px solid red; */
+  height: 180px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  
+}
+.audi-models>p{
+  margin-top: 10px;
+  margin-left: 60px;
+  font-size: 18px;
+}
+.car-models>.car-models1>img{
+  height: 100px;
+  width: 230px;
+  /* border: 2px solid red;   */
+  transition: 1s;
+  
+  
+}
+.car-models>.car-models1>a{
+  text-decoration: none;  
+}
+/* .car-models>.car-models1{
+  border: 2px solid yellowgreen;
+ 
+} */
+/* .car-models>.car-models1>img:hover{
+  transform: scale(1.1);
+} */
+.car-models>.car-models1>a{
+  text-decoration: none;
+  color: black;
+  /* border: 2px solid green; */
+  display: block;
+  
+
+}
+
+/* .car-models1{
+  text-decoration: underline;
+  font-weight: bold;
+  
+} */
+
+.car-models>.car-models1:hover>img{
+  transform: scale(1.1);
+
+}
+.car-models>.car-models1:hover>a{
+  text-decoration: underline;
+}
+
+
+
+/*------------------------------------------------------------------------*/
+.AudiVirtualShowroom{
+  display: flex;
+  margin-top: 130px;
+  margin-left: 180px;
+  align-items: center;
+  /* border: 2px solid green; */
+
+}
+.audivirtual-img>img{
+  height: 575px;
+  width: 570px;
+}
+.audicontent{
+  margin-left: 60px;
+
+}
+.audicontent>h1{
+  font-size: 45px;
+  padding-top: 10px;
+}
+#Audishowroom-btn{
+  padding: 15px 60px;
+  background-color: white;
+  border: 1px solid black;
+  
+}
+#Audishowroom-btn:hover{
+  color: rgb(76,76,76);
+}
+/*-------------------------------------------------*/
+
+.homeofelectric{
+  background-image: url('./images/E-tronHub-3840X4000.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 180vh;
+  
+  margin-top: 80px;
+}
+
+.electric-content{
+  /* border: 2px solid red; */
+  background-color: white;
+  height: 270px;
+  width: 500px;
+  position: relative;
+  top: 380px;
+  left: 50px;
+  text-align: start;
+  padding: 30px 40px 20px 40px;
+}
+.electric-content>h1{
+  padding-bottom: 20px;
+  font-size: 37px;
+}
+.electric-content>p{
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+#electric-btns1{
+  padding: 20px 30px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+#electric-btns1:hover{
+   background-color: rgb(87, 86, 86);
+}
+#electric-btns2{
+  padding: 20px 30px;
+  background-color: white;
+
+}
+#electric-btns2:hover{
+  color: rgb(97, 91, 91);
+}
