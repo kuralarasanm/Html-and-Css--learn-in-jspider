@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: url(netflixback.jpg);
+}
+
+section{
+    height: 650px;
+    width: 450px;  
+    background-color: rgba(0, 0, 0, 0.596); 
+    
+    margin-left: 520px;
+    margin-top: 90px;
+    padding-left: 80px;
+}
+section>h1{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 70px;
+}
+#mail>input{
+    height: 50px;
+    width: 310px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(51,51,51);
+    padding-left: 30px;
+}
+#pass>input{
+    height: 50px;
+    width: 310px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(51,51,51);
+    padding-left: 30px;
+}
+#sign>button{
+    height: 50px;
+    width: 310px;
+    margin-top: 75px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(229,9,20);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+#check>input{
+    height: 17px;
+    width: 17px;
+    margin-top: 15px;
+}
+#check>label{
+    color: rgb(179,179,179);
+    font-size: 15px;
+    margin-top: -10px;
+}
+#check>a{
+    margin-left: 120px;
+    text-decoration: none;
+    color: rgb(179,179,179);
+    font-size: 15px;
+}
+#check>a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   
+}
+#para1>p{
+    color: rgb(179,179,179);
+    margin-top: 20px;
+}
+#para1>p>a{
+    margin-left: 0px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    
+}
+#para1>p>a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 18px;
+    
+}
+#para1>#last>a{
+    color: blue;
+    font-size: 15px;
+    
+}

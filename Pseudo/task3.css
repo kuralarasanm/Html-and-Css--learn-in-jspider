@@ -1,0 +1,30 @@
+body{
+    
+    color: white;
+}
+button{
+    background-color: rgb(140, 15, 15);
+    color: white;
+    height: 50px;
+    width: 250px;
+}
+input{
+    background-color: rgb(48, 43, 43);
+    width: 200px;
+    height: 30px;
+}
+a{
+    padding-left: 50px;
+    text-decoration: none;/* use to remove underline*/
+
+}
+div{
+    margin: auto;
+    padding: 10px 30px 40px;
+    text-align: center;
+    background-color: black;
+    width: 270px;
+    height: 400px;
+    
+
+}
